@@ -1,0 +1,18 @@
+/* Hide default Swiper navigation buttons */
+.swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+}
+
+.hide-scrollbar {
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+.overflow-x-auto {
+  overflow-x: hidden;
+}
